@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RideWithMe" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +21,53 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mo7-fO-FkW">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="courier.gif" translatesAutoresizingMaskIntoConstraints="NO" id="436-2S-P9s">
+                                        <rect key="frame" x="0.0" y="135" width="375" height="280.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="436-2S-P9s" secondAttribute="height" multiplier="375:281" id="5ck-2h-K9E"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mtlzenlogo" translatesAutoresizingMaskIntoConstraints="NO" id="ddH-OK-IjM">
+                                        <rect key="frame" x="51" y="8" width="273" height="160"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="ddH-OK-IjM" secondAttribute="height" multiplier="273:160" id="1nv-Yb-yj3"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.2627450980392157" green="0.50588235294117645" blue="0.68627450980392157" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="ddH-OK-IjM" firstAttribute="leading" secondItem="mo7-fO-FkW" secondAttribute="leading" constant="51" id="9v6-J9-JnD"/>
+                                    <constraint firstItem="436-2S-P9s" firstAttribute="top" secondItem="ddH-OK-IjM" secondAttribute="bottom" constant="-33" id="R4S-a1-blb"/>
+                                    <constraint firstItem="436-2S-P9s" firstAttribute="leading" secondItem="mo7-fO-FkW" secondAttribute="leading" id="UWp-Hu-NFf"/>
+                                    <constraint firstAttribute="trailing" secondItem="436-2S-P9s" secondAttribute="trailing" id="gpD-zs-dCl"/>
+                                    <constraint firstAttribute="trailing" secondItem="ddH-OK-IjM" secondAttribute="trailing" constant="51" id="vud-IJ-dCG"/>
+                                    <constraint firstItem="ddH-OK-IjM" firstAttribute="top" secondItem="mo7-fO-FkW" secondAttribute="top" constant="8" id="xX1-BR-uoB"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="mo7-fO-FkW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="9ld-3H-y5K"/>
+                            <constraint firstItem="mo7-fO-FkW" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Ano-uJ-yPS"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="mo7-fO-FkW" secondAttribute="bottom" id="e5m-vJ-h38"/>
+                            <constraint firstAttribute="trailing" secondItem="mo7-fO-FkW" secondAttribute="trailing" id="lVe-50-fJG"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="gifView" destination="436-2S-P9s" id="Jcg-jF-dxF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="137.18140929535232"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="courier.gif" width="800" height="600"/>
+        <image name="mtlzenlogo" width="960" height="560"/>
+    </resources>
 </document>

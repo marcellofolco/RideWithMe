@@ -14,6 +14,8 @@
 		A4C5770D1F0D7E7A001C67E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4C5770B1F0D7E7A001C67E1 /* LaunchScreen.storyboard */; };
 		A4C577181F0D7E7B001C67E1 /* RideWithMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C577171F0D7E7B001C67E1 /* RideWithMeTests.swift */; };
 		A4C577231F0D7E7B001C67E1 /* RideWithMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C577221F0D7E7B001C67E1 /* RideWithMeUITests.swift */; };
+		A4C577311F0DD316001C67E1 /* SwiftGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C577301F0DD316001C67E1 /* SwiftGif.swift */; };
+		A4C577331F0DD417001C67E1 /* courier.gif in Resources */ = {isa = PBXBuildFile; fileRef = A4C577321F0DD417001C67E1 /* courier.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		A4C5771E1F0D7E7B001C67E1 /* RideWithMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RideWithMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4C577221F0D7E7B001C67E1 /* RideWithMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideWithMeUITests.swift; sourceTree = "<group>"; };
 		A4C577241F0D7E7B001C67E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4C577301F0DD316001C67E1 /* SwiftGif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftGif.swift; sourceTree = "<group>"; };
+		A4C577321F0DD417001C67E1 /* courier.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = courier.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 				A4C577041F0D7E7A001C67E1 /* ViewController.swift */,
 				A4C577061F0D7E7A001C67E1 /* Main.storyboard */,
 				A4C577091F0D7E7A001C67E1 /* Assets.xcassets */,
+				A4C577321F0DD417001C67E1 /* courier.gif */,
+				A4C577301F0DD316001C67E1 /* SwiftGif.swift */,
 				A4C5770B1F0D7E7A001C67E1 /* LaunchScreen.storyboard */,
 				A4C5770E1F0D7E7A001C67E1 /* Info.plist */,
 			);
@@ -235,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4C577331F0DD417001C67E1 /* courier.gif in Resources */,
 				A4C5770D1F0D7E7A001C67E1 /* LaunchScreen.storyboard in Resources */,
 				A4C5770A1F0D7E7A001C67E1 /* Assets.xcassets in Resources */,
 				A4C577081F0D7E7A001C67E1 /* Main.storyboard in Resources */,
@@ -262,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4C577311F0DD316001C67E1 /* SwiftGif.swift in Sources */,
 				A4C577051F0D7E7A001C67E1 /* ViewController.swift in Sources */,
 				A4C577031F0D7E7A001C67E1 /* AppDelegate.swift in Sources */,
 			);
@@ -514,6 +522,7 @@
 				A4C577291F0D7E7B001C67E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4C5772A1F0D7E7B001C67E1 /* Build configuration list for PBXNativeTarget "RideWithMeTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +531,7 @@
 				A4C5772C1F0D7E7B001C67E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4C5772D1F0D7E7B001C67E1 /* Build configuration list for PBXNativeTarget "RideWithMeUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +540,7 @@
 				A4C5772F1F0D7E7B001C67E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
