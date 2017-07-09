@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>GTMSessionFetcher.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>GeoFire.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -37,6 +42,11 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>27B3B3E6334E2D14A5843854DF94E84E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>5B25E04A596B8EB5DCAD9D70E74156AA</key>
 		<dict>
 			<key>primary</key>
@@ -47,12 +57,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D442A1063E1FD2A0AB8ACF96C63173A4</key>
+		<key>C052BEBFBD0AB5218CC64BA3450F6547</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F446C76CB86075779D0E552337D54813</key>
+		<key>D442A1063E1FD2A0AB8ACF96C63173A4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
