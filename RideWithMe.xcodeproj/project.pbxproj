@@ -251,7 +251,6 @@
 				TargetAttributes = {
 					A4C576FE1F0D7E7A001C67E1 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = MV7HZ99EDM;
 						ProvisioningStyle = Automatic;
 					};
 					A4C577121F0D7E7B001C67E1 = {
@@ -615,7 +614,7 @@
 			baseConfigurationReference = ADD4C8A4B7B464FB727CD0C2 /* Pods-RideWithMe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = MV7HZ99EDM;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = RideWithMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.marcellofolco.RideWithMe;
@@ -629,7 +628,7 @@
 			baseConfigurationReference = 9FACF366BA8E3BBBC32254A1 /* Pods-RideWithMe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = MV7HZ99EDM;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = RideWithMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.marcellofolco.RideWithMe;
