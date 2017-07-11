@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		10FB06F3783EE0189D231623 /* Pods_RideWithMeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C71A2F00A72B44F8E46576A9 /* Pods_RideWithMeUITests.framework */; };
 		19FD2FF5F753E7D427043834 /* Pods_RideWithMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BB6630105EE5E406E9117E /* Pods_RideWithMe.framework */; };
+		A49A28891F111F40008DDD3E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A49A28881F111F40008DDD3E /* GoogleService-Info.plist */; };
 		A4C577031F0D7E7A001C67E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C577021F0D7E7A001C67E1 /* AppDelegate.swift */; };
 		A4C577051F0D7E7A001C67E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C577041F0D7E7A001C67E1 /* ViewController.swift */; };
 		A4C577081F0D7E7A001C67E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4C577061F0D7E7A001C67E1 /* Main.storyboard */; };
@@ -45,6 +46,7 @@
 		78BB6630105EE5E406E9117E /* Pods_RideWithMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RideWithMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		851B4C3E5B4872F417041CB7 /* Pods-RideWithMeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RideWithMeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RideWithMeUITests/Pods-RideWithMeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9FACF366BA8E3BBBC32254A1 /* Pods-RideWithMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RideWithMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-RideWithMe/Pods-RideWithMe.release.xcconfig"; sourceTree = "<group>"; };
+		A49A28881F111F40008DDD3E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A4C576FF1F0D7E7A001C67E1 /* RideWithMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RideWithMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4C577021F0D7E7A001C67E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4C577041F0D7E7A001C67E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 		A4C577011F0D7E7A001C67E1 /* RideWithMe */ = {
 			isa = PBXGroup;
 			children = (
+				A49A28881F111F40008DDD3E /* GoogleService-Info.plist */,
 				A4C577021F0D7E7A001C67E1 /* AppDelegate.swift */,
 				A4C577041F0D7E7A001C67E1 /* ViewController.swift */,
 				A4C577061F0D7E7A001C67E1 /* Main.storyboard */,
@@ -248,7 +251,6 @@
 				TargetAttributes = {
 					A4C576FE1F0D7E7A001C67E1 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = MV7HZ99EDM;
 						ProvisioningStyle = Automatic;
 					};
 					A4C577121F0D7E7B001C67E1 = {
@@ -292,6 +294,7 @@
 			files = (
 				A4C577331F0DD417001C67E1 /* courier.gif in Resources */,
 				A4C5770D1F0D7E7A001C67E1 /* LaunchScreen.storyboard in Resources */,
+				A49A28891F111F40008DDD3E /* GoogleService-Info.plist in Resources */,
 				A4C5770A1F0D7E7A001C67E1 /* Assets.xcassets in Resources */,
 				A4C577081F0D7E7A001C67E1 /* Main.storyboard in Resources */,
 			);
@@ -611,7 +614,7 @@
 			baseConfigurationReference = ADD4C8A4B7B464FB727CD0C2 /* Pods-RideWithMe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = MV7HZ99EDM;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = RideWithMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.marcellofolco.RideWithMe;
@@ -625,7 +628,7 @@
 			baseConfigurationReference = 9FACF366BA8E3BBBC32254A1 /* Pods-RideWithMe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = MV7HZ99EDM;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = RideWithMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.marcellofolco.RideWithMe;
